@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+
+		<title>Expenses chart component</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<article>
+					<p class="description">My balance</p>
+					<p class="balance">$921.48</p>
+				</article>
+				<aside>
+					<img src="./images/logo.svg" alt="" aria-hidden="true" />
+				</aside>
+			</header>
+			<section class="section">
+				<h1 class="title">Spending - Last 7 days</h1>
+				<svg id="bar-chart" height="240"></svg>
+				<hr class="hr-svg" />
+				<footer>
+					<article>
+						<p class="description">Total this month</p>
+						<p class="balance-month"><strong>$478.33</strong></p>
+					</article>
+					<article class="article-right">
+						<p class="percentage"><strong>+2.4%</strong></p>
+						<p class="description">from last month</p>
+					</article>
+				</footer>
+			</section>
+		</main>
+	</body>
+</html>
+<script src="script.js"></script>
